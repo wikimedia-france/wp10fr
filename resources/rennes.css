@@ -1,0 +1,32 @@
+/* 
+    Document   : rennes
+    Created on : 19 avr. 2011, 09:28:12
+    Author     : Ash_Crow
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#rennes_header {
+    text-align:center;
+}
+
+#rennes_header h2 {
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+#rennes_header ul {
+    margin-top:0px;
+    padding-top:0px;
+    list-style-type: none;
+}
+
+#rennes_header ul li {
+   display:inline;
+}
+
+.centered {
+    width:300px;
+    margin : 0 auto;
+}

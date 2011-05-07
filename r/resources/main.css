@@ -1,0 +1,25 @@
+.centered {
+    width:300px;
+    margin : 0 auto;
+}
+
+.nav-glyphish-vertical .ui-btn .ui-btn-inner {
+    padding-top: 40px !important;
+}
+
+
+.nav-glyphish .ui-btn .ui-icon {
+    width: 28px!important;
+    height: 28px!important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: none !important;
+    border-radius: none !important;
+}
+
+.map .ui-icon { background:  url(icons/103-map.png) 50% 50% no-repeat; background-size: 26px 21px; }
+.bird .ui-icon { background:  url(icons/23-bird.png) 50% 50% no-repeat; background-size: 25px 24px; }
+.house .ui-icon { background:  url(icons/53-house.png) 50% 50% no-repeat;  background-size: 22px 22px; }
+.camera .ui-icon { background:  url(icons/86-camera.png) 50% 50% no-repeat;  background-size: 24px 18px; }
+.puzzle .ui-icon { background:  url(icons/97-puzzle.png) 50% 50% no-repeat;  background-size: 28px 25px; }

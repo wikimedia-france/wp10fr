@@ -1,0 +1,146 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+h2 {
+    text-align:center;
+}
+
+/* liens */
+a {
+    text-decoration: none;
+    color:#536c2a;
+}
+
+a:hover {
+    color:#394c14;
+}
+
+a:visited {
+    color:#263307;
+}
+
+
+#wrapper {
+    width:800px;
+    margin: 0px auto;
+    background: #ddd url('images/background.png') no-repeat bottom right;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding-top:10px;
+    -webkit-box-shadow: 0px 0px 5px #333333;
+    -moz-box-shadow: 0px 0px 5px #333333;
+    box-shadow: 0px 0px 5px #333333;
+
+}
+
+/***********/
+/* Header */
+/*********/
+
+#header {
+    background: url('images/logo.jpg') no-repeat top left;
+    width:780px;
+    height:200px;
+    margin : 0px auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 3px #bbb;
+    -moz-box-shadow: inset 0px 0px 3px #bbb;
+    box-shadow: inset 0px 0px 3px #bbb;
+}
+
+#title {
+    display:none;
+}
+
+/************/
+/* Nav Bar */
+/**********/
+
+#navbar {
+    width:96%;
+    margin:auto;
+}
+
+#ul_navbar {
+    margin-top:0px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#ul_navbar a {
+    color:black;
+}
+
+.li_navbar {
+    display:inline;
+}
+
+/*******************/
+/* Page d'accueil */
+/*****************/
+
+#ul_choixville {
+    margin: 0;
+    margin-top:20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#ul_choixville img {
+    border: 10px solid white;
+    margin-left: 10px;
+}
+
+.li_choixville {
+   display:inline;
+   width:260px;
+   height:420px;
+}
+
+/************/
+/* Contenu */
+/**********/
+
+#content {
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+/***********/
+/* Rennes */
+/*********/
+#citymap {
+    width: 600px;
+    margin:auto;
+    border:1px solid #bbb;
+    -webkit-box-shadow: 0px 0px 2px #bbb;
+    -moz-box-shadow: 0px 0px 2px #bbb;
+    box-shadow: 0px 0px 2px #bbb;
+}
+
+/***********/
+/* Footer */
+/*********/
+#footer {
+    padding:10px;
+    text-align: right;
+    font-size: 80%;
+}
+#footer a {
+    color:black;
+}
+
+#ul_footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top:5px;
+    margin-bottom:0px;
+}
+
+.li_footer {
+    display:inline;
+}
